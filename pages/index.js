@@ -1,9 +1,5 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -14,51 +10,36 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-col items-center w-1/2 mx-auto">
-        <h1 className="text-center font-bold text-4xl my-6">
+      <main className="w-1/2 mx-auto">
+        <h1 className="text-center font-bold text-4xl my-10">
           Super Blog website by HuntingCoders
         </h1>
         <Image
           src="/coder.jpg"
-          className="rounded-md mb-5"
+          className="rounded-md mb-5 mx-auto"
           alt="coder"
           width={237}
           height={158}
         />
-        <h2 className="text-2xl font-bold mx-10">Popular Blogs: </h2>
+        <h2 className="text-2xl font-bold mt-10">Popular Blogs: </h2>
 
-        <div className="mt-10 mx-10 bg-[#f9f9f9] p-7 rounded-md">
-          <h3 className="text-xl font-bold text-center mb-5">
+        <div className="mt-5 mx-10 bg-[#f9f9f9] p-7 rounded-md">
+          <h3 className="text-xl font-bold mb-2">
             How to learn JavaScript in 2023?
           </h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-            laborum beatae odit explicabo assumenda inventore maxime velit eos
-            officiis architecto. Aut maiores cupiditate ad quas harum
-            consequuntur ex eaque libero!
-          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
         <div className="my-5 mx-10 bg-[#f9f9f9] p-7 rounded-md">
-          <h3 className="text-xl font-bold text-center mb-5">
+          <h3 className="text-xl font-bold mb-2">
             How to learn ReactJs in 2023?
           </h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-            laborum beatae odit explicabo assumenda inventore maxime velit eos
-            officiis architecto. Aut maiores cupiditate ad quas harum
-            consequuntur ex eaque libero!
-          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
         <div className="mb-5 mx-10 bg-[#f9f9f9] p-7 rounded-md">
-          <h3 className="text-xl font-bold text-center mb-5">
+          <h3 className="text-xl font-bold mb-2">
             How to learn Material UI in 2023?
           </h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-            laborum beatae odit explicabo assumenda inventore maxime velit eos
-            officiis architecto. Aut maiores cupiditate ad quas harum
-            consequuntur ex eaque libero!
-          </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
       </main>
     </>
