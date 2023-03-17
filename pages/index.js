@@ -23,37 +23,40 @@ export default function Home() {
         </ul>
       </nav>
 
-      <h1 className="text-center font-bold text-4xl my-6">
-        Super Blog website by HuntingCoders
-      </h1>
+      <main>
+        <h1 className="text-center font-bold text-4xl my-6">
+          Super Blog website by HuntingCoders
+        </h1>
+        <h2 className="text-2xl font-bold mx-10">Popular Blogs: </h2>
 
-      <div className="my-10 mx-10">
-        <h1 className="text-3xl font-bold text-center">Hunting Coder</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laborum
-          beatae odit explicabo assumenda inventore maxime velit eos officiis
-          architecto. Aut maiores cupiditate ad quas harum consequuntur ex eaque
-          libero!
-        </p>
-      </div>
-      <div className="my-5 mx-10">
-        <h1 className="text-3xl font-bold text-center">Hunting Coder</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laborum
-          beatae odit explicabo assumenda inventore maxime velit eos officiis
-          architecto. Aut maiores cupiditate ad quas harum consequuntur ex eaque
-          libero!
-        </p>
-      </div>
-      <div className="my-5 mx-10">
-        <h1 className="text-3xl font-bold text-center">Hunting Coder</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laborum
-          beatae odit explicabo assumenda inventore maxime velit eos officiis
-          architecto. Aut maiores cupiditate ad quas harum consequuntur ex eaque
-          libero!
-        </p>
-      </div>
+        <div className="my-10 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
+          <h3 className="text-3xl font-bold text-center">Hunting Coder</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+            laborum beatae odit explicabo assumenda inventore maxime velit eos
+            officiis architecto. Aut maiores cupiditate ad quas harum
+            consequuntur ex eaque libero!
+          </p>
+        </div>
+        <div className="my-5 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
+          <h3 className="text-3xl font-bold text-center">Hunting Coder</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+            laborum beatae odit explicabo assumenda inventore maxime velit eos
+            officiis architecto. Aut maiores cupiditate ad quas harum
+            consequuntur ex eaque libero!
+          </p>
+        </div>
+        <div className="my-5 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
+          <h3 className="text-3xl font-bold text-center">Hunting Coder</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+            laborum beatae odit explicabo assumenda inventore maxime velit eos
+            officiis architecto. Aut maiores cupiditate ad quas harum
+            consequuntur ex eaque libero!
+          </p>
+        </div>
+      </main>
     </>
   );
 }
