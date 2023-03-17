@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,14 +14,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="flex flex-col items-center w-1/2 mx-auto">
         <h1 className="text-center font-bold text-4xl my-6">
           Super Blog website by HuntingCoders
         </h1>
+        <Image
+          src="/coder.jpg"
+          className="rounded-md mb-5"
+          alt="coder"
+          width={237}
+          height={158}
+        />
         <h2 className="text-2xl font-bold mx-10">Popular Blogs: </h2>
 
-        <div className="my-10 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
-          <h3 className="text-3xl font-bold text-center mb-5">Hunting Coder</h3>
+        <div className="mt-10 mx-10 bg-[#f9f9f9] p-7 rounded-md">
+          <h3 className="text-xl font-bold text-center mb-5">
+            How to learn JavaScript in 2023?
+          </h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
             laborum beatae odit explicabo assumenda inventore maxime velit eos
@@ -28,8 +38,10 @@ export default function Home() {
             consequuntur ex eaque libero!
           </p>
         </div>
-        <div className="my-5 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
-          <h3 className="text-3xl font-bold text-center mb-5">Hunting Coder</h3>
+        <div className="my-5 mx-10 bg-[#f9f9f9] p-7 rounded-md">
+          <h3 className="text-xl font-bold text-center mb-5">
+            How to learn ReactJs in 2023?
+          </h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
             laborum beatae odit explicabo assumenda inventore maxime velit eos
@@ -37,8 +49,10 @@ export default function Home() {
             consequuntur ex eaque libero!
           </p>
         </div>
-        <div className="my-5 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
-          <h3 className="text-3xl font-bold text-center mb-5">Hunting Coder</h3>
+        <div className="mb-5 mx-10 bg-[#f9f9f9] p-7 rounded-md">
+          <h3 className="text-xl font-bold text-center mb-5">
+            How to learn Material UI in 2023?
+          </h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
             laborum beatae odit explicabo assumenda inventore maxime velit eos

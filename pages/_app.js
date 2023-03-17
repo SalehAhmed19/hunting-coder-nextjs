@@ -17,16 +17,16 @@ export default function App({ Component, pageProps }) {
       <nav className="p-8 bg-black text-white">
         <ul className="flex">
           <Link href="/" className="mx-5">
-            Home
+            <li>Home</li>
           </Link>
           <Link href="/about" className="mx-5">
-            About
+            <li>About</li>
           </Link>
           <Link href="/blogs" className="mx-5">
-            Blogs
+            <li>Blogs</li>
           </Link>
           <Link href="/contact" className="mx-5">
-            Contact
+            <li>Contact</li>
           </Link>
         </ul>
       </nav>
