@@ -30,7 +30,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold mx-10">Popular Blogs: </h2>
 
         <div className="my-10 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
-          <h3 className="text-3xl font-bold text-center">Hunting Coder</h3>
+          <h3 className="text-3xl font-bold text-center mb-5">Hunting Coder</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
             laborum beatae odit explicabo assumenda inventore maxime velit eos
@@ -39,7 +39,7 @@ export default function Home() {
           </p>
         </div>
         <div className="my-5 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
-          <h3 className="text-3xl font-bold text-center">Hunting Coder</h3>
+          <h3 className="text-3xl font-bold text-center mb-5">Hunting Coder</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
             laborum beatae odit explicabo assumenda inventore maxime velit eos
@@ -48,7 +48,7 @@ export default function Home() {
           </p>
         </div>
         <div className="my-5 mx-10 bg-[#E7E7E7] border p-7 rounded-md">
-          <h3 className="text-3xl font-bold text-center">Hunting Coder</h3>
+          <h3 className="text-3xl font-bold text-center mb-5">Hunting Coder</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
             laborum beatae odit explicabo assumenda inventore maxime velit eos
