@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -14,15 +13,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="p-8 bg-black text-white">
-        <ul className="flex">
-          <li className="mx-5">Home</li>
-          <li className="mx-5">About</li>
-          <li className="mx-5">Blogs</li>
-          <li className="mx-5">Contact</li>
-        </ul>
-      </nav>
-
       <main>
         <h1 className="text-center font-bold text-4xl my-6">
           Super Blog website by HuntingCoders
