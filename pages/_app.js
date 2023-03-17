@@ -10,15 +10,17 @@ const poppins = Poppins({
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <style jsx global>{`
         html {
           font-family: ${poppins.style.fontFamily};
         }
       `}</style>
       <Navbar />
-      <Component {...pageProps} />
+      <div className="lg:mx-20 mx-5 py-10">
+        <Component {...pageProps} />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
