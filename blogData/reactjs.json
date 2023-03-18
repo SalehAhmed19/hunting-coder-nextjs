@@ -1,8 +1,7 @@
 {
   "title": "About ReactJs",
-  "content": {
-    "para1": "ReactJS is an open-source JavaScript library used for building user interfaces for web applications. It was developed by Facebook and released in 2013. ReactJS is a component-based library, which means that it allows developers to create reusable UI components that can be easily managed and updated. \n One of the key features of ReactJS is its ability to efficiently update and render components. ReactJS uses a virtual DOM (Document Object Model) to optimize the rendering process, which makes it much faster and more efficient than traditional DOM manipulation. \n ReactJS is also highly customizable and extensible, making it a popular choice for large-scale web applications. It can be used with other libraries and frameworks, such as Redux and AngularJS, to create more complex and feature-rich applications. Overall, ReactJS is a powerful and flexible library that has become an essential tool for modern web development."
-  },
+  "content": "ReactJS is an open-source JavaScript library used for building user interfaces for web applications. It was developed by Facebook and released in 2013. ReactJS is a component-based library, which means that it allows developers to create reusable UI components that can be easily managed and updated. \n One of the key features of ReactJS is its ability to efficiently update and render components. ReactJS uses a virtual DOM (Document Object Model) to optimize the rendering process, which makes it much faster and more efficient than traditional DOM manipulation. ReactJS is also highly customizable and extensible, making it a popular choice for large-scale web applications. It can be used with other libraries and frameworks, such as Redux and AngularJS, to create more complex and feature-rich applications. \n Overall, ReactJS is a powerful and flexible library that has become an essential tool for modern web development.",
   "author": "Saleh Ahmed Mahin",
-  "date": "18 March 2023"
+  "date": "18 March 2023",
+  "slug":"reactjs"
 }

@@ -1,8 +1,7 @@
 {
   "title": "About JavaScript?",
-  "content": {
-    "para1": "JavaScript is a dynamic, high-level, and interpreted programming language used for creating dynamic and interactive websites and web applications. It is widely used for both client-side and server-side scripting, which makes it one of the most versatile programming languages out there. \n One of the key features of JavaScript is its ability to manipulate the Document Object Model (DOM), which is the structure that represents a web page in the browser. With JavaScript, developers can add, remove, or modify elements of the DOM dynamically, creating dynamic and interactive web pages. \n Overall, JavaScript is a fundamental programming language for web development, and it continues to evolve with new features and updates. As more businesses and organizations turn to the web for their operations, the importance of JavaScript in the world of web development will only continue to grow."
-  },
+  "content": "JavaScript is a dynamic, high-level, and interpreted programming language used for creating dynamic and interactive websites and web applications. It is widely used for both client-side and server-side scripting, which makes it one of the most versatile programming languages out there. \n One of the key features of JavaScript is its ability to manipulate the Document Object Model (DOM), which is the structure that represents a web page in the browser. With JavaScript, developers can add, remove, or modify elements of the DOM dynamically, creating dynamic and interactive web pages.\n Overall, JavaScript is a fundamental programming language for web development, and it continues to evolve with new features and updates. As more businesses and organizations turn to the web for their operations, the importance of JavaScript in the world of web development will only continue to grow.",
   "author": "Saleh Ahmed Mahin",
-  "date": "18 March 2023"
+  "date": "18 March 2023",
+  "slug":"javascript"
 }

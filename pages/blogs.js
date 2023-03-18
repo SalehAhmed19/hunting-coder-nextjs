@@ -25,26 +25,18 @@ const Blog = () => {
   }, []);
 
   return (
-    <div>
+    <div className="lg:mx-28 mx-5">
       <h2 className="text-center font-bold text-4xl my-10">Blogs</h2>
-
-      {blogs.map((blog) => {
-        console.log(blog);
-        <p key={blog.title}>{blog.title}</p>;
-      })}
-
-      {/* <Link href={`/blog-post/React`}>
-        <div className="my-5  bg-[#f9f9f9] p-7 rounded-md">
-          <h3 className="text-xl font-bold mb-2">About React Js</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        </div>
-      </Link>
-      <Link href={`/blog-post/Mui`}>
-        <div className="mb-5  bg-[#f9f9f9] p-7 rounded-md">
-          <h3 className="text-xl font-bold mb-2">About Material UI</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        </div>
-      </Link> */}
+      {blogs.map((blog) => (
+        <>
+          <Link href={`/blog-post/` + blog.slug}>
+            <div className="my-5  bg-[#f9f9f9] p-7 rounded-md">
+              <h3 className="text-xl font-bold mb-2">{blog.title}</h3>
+              <p>{blog.content.slice(0, 140) + "..."}</p>
+            </div>
+          </Link>
+        </>
+      ))}
     </div>
   );
 };
