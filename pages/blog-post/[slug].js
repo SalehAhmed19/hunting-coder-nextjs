@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 // step 1: find the file corresponding to the slug
 // step  2: populate them inside the page
@@ -7,16 +7,29 @@ import React from "react";
 const Blog = () => {
   const router = useRouter();
   const { slug } = router.query;
+  const [blog, setBlog] = useState({});
+  useEffect(() => {
+    fetch(`http://localhost:3000/api/getblogs?slug=` + slug).then((res) =>
+      res.json().then((data) => setBlog(data))
+    );
+  }, []);
   return (
     <main>
-      <h1 className="text-2xl font-bold">{slug}</h1>
+      <h1 className="text-2xl font-bold">{blog.title}</h1>
+      <div className="flex justify-between text-[#646464]">
+        <h4>
+          <small>
+            <span className="font-bold">Author:</span> {blog.author}
+          </small>
+        </h4>
+        <h4>
+          <small>
+            <span className="font-bold">Time:</span> {blog.date}
+          </small>
+        </h4>
+      </div>
       <hr className="my-5" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-        nostrum cupiditate et, quis optio sed odit culpa nulla necessitatibus
-        exercitationem at nemo, placeat accusamus veniam vitae mollitia.
-        Delectus, laboriosam sunt.
-      </p>
+      <p>{blog.content}</p>
     </main>
   );
 };
