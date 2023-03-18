@@ -9,7 +9,7 @@ const Blog = () => {
   const { slug } = router.query;
   const [blog, setBlog] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:3000/api/getblogs?slug=` + slug).then((res) =>
+    fetch(`http://localhost:3001/api/getblogs?slug=` + slug).then((res) =>
       res.json().then((data) => setBlog(data))
     );
   }, []);
