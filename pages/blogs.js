@@ -32,6 +32,9 @@ const Blog = () => {
           <Link href={`/blog-post/` + blog.slug}>
             <div className="my-5  bg-[#f9f9f9] p-7 rounded-md">
               <h3 className="text-xl font-bold mb-2">{blog.title}</h3>
+              <p className="text-[#646464] mb-5">
+                <small>/ {blog.date}</small>
+              </p>
               <p>{blog.content.slice(0, 140) + "..."}</p>
             </div>
           </Link>
